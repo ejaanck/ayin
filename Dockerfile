@@ -5,11 +5,11 @@
 
 FROM ayiinxd/ayiin:xd
 
-RUN git clone -b Ayiin-Userbot https://github.com/AyiinXd/Ayiin-Userbot /home/ayiinuserbot/ \
-    && chmod 777 /home/ayiinuserbot \
-    && mkdir /home/ayiinuserbot/bin/
+RUN git clone -b ayin https://github.com/ejaanck/ayin /home/ayin/ \
+    && chmod 777 /home/ayin \
+    && mkdir /home/ayin/bin/
 
-#COPY ./sample.env ./.env* /home/ayiinuserbot/
+#COPY ./sample.env ./.env* /home/ayin/
 
 WORKDIR /home/ayiinuserbot/
 

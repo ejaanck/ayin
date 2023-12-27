@@ -11,7 +11,7 @@ RUN git clone -b ayin https://github.com/ejaanck/ayin /home/ayin/ \
 
 #COPY ./sample.env ./.env* /home/ayin/
 
-WORKDIR /home/ayiinuserbot/
+WORKDIR /home/ayin/
 
 RUN pip install -r requirements.txt
 
